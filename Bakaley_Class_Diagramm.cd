@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bakaleya.Product">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAQAAEQCgAAAAAAAAAIEA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductsList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bakaleya.Provisioner">
+    <Position X="3" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAABAAAAAAAAAAAAAAAAAAAAAAQAACAUAA=</HashCode>
+      <FileName>Provisioner.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bakaleya.ProductsList">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQACAAAIAAACAIAAAAgAAAAAAAgIABBQBAAAgCAAA=</HashCode>
+      <FileName>ProductsList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bakaleya.PrintDataToExcel">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAAAIAAAEAAAAAAAAAAAACAAAACgBAAAAQA=</HashCode>
+      <FileName>PrintDataToExcel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
